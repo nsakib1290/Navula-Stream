@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "repository": {
+    "id": "sakibstream-community",
+    "name": "SakibStream Community Providers",
+    "description": "A starter repository manifest for compatible, authorized stream providers."
+  },
+  "providers": [
+    {
+      "id": "sample-provider",
+      "name": "Sample Provider",
+      "version": "1.0.0",
+      "description": "Example provider metadata only; no real streaming source is included.",
+      "entry": "providers/sample-provider/provider.json",
+      "permissions": [
+        "catalog.read",
+        "search",
+        "stream.resolve"
+      ],
+      "domains": [
+        "media.example.org"
+      ]
+    }
+  ]
+}

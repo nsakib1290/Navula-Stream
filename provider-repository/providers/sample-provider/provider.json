@@ -1,0 +1,13 @@
+{
+  "id": "sample-provider",
+  "name": "Sample Provider",
+  "version": "1.0.0",
+  "apiVersion": "1",
+  "capabilities": [
+    "catalog",
+    "search",
+    "details",
+    "stream"
+  ],
+  "note": "Metadata template only. Implement against the SakibStream Provider SDK before use."
+}
